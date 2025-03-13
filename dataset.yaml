@@ -1,17 +1,21 @@
-# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
-path: datasets/coco # dataset root dir
-train: images/ # train images (relative to 'path') 128 images
-val: images/ # val images (relative to 'path') 128 images
-test: # test images (optional)
+# Chemin vers le dataset
+path: datasets/coco  # Dossier contenant les données
 
-# Classes (80 COCO classes) dict_panneau = {"danger": 1,"ordre, interdiction ou prescription" : 2, "Obligation": 3,"indication": 4,"localisation": 5, "direction": 6, "feu ( rouge/vert/orange)" : 7}
+# Train, validation et test
+train: images/  # Dossier des images d'entraînement
+val: images/  # Dossier des images de validation
+test: images/test  # (Optionnel) Dossier des images de test
 
+# Nombre de classes
+nc: 7
+
+# Noms des classes
 names:
-    1: danger
-    2: ordre, interdiction ou prescription
-    3: Obligation
-    4: indication
-    5: localisation
-    6: direction
-    7: feu ( rouge/vert/orange)
+  - danger
+  - ordre, interdiction ou prescription
+  - Obligation
+  - indication
+  - localisation
+  - direction
+  - feu (rouge/vert/orange)
 
