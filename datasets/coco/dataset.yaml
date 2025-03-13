@@ -1,0 +1,21 @@
+# Chemin vers le dataset
+path: PAP-DetectionPanneauSignalisation/datasets  # Dossier contenant les données
+
+# Train, validation et test
+train: images/  # Dossier des images d'entraînement
+val: images/  # Dossier des images de validation
+test: images/test  # (Optionnel) Dossier des images de test
+
+# Nombre de classes
+nc: 7
+
+# Noms des classes
+names:
+  - danger
+  - ordre, interdiction ou prescription
+  - Obligation
+  - indication
+  - localisation
+  - direction
+  - feu (rouge/vert/orange)
+
