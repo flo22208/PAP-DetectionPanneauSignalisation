@@ -2,8 +2,8 @@
 path: PAP-DetectionPanneauSignalisation/datasets  # Dossier contenant les données
 
 # Train, validation et test
-train: coco/images/  # Dossier des images d'entraînement
-val: coco/images/  # Dossier des images de validation
+train: coco/images/train  # Dossier des images d'entraînement
+val: coco/images/train  # Dossier des images de validation
 test: images/test  # (Optionnel) Dossier des images de test
 
 # Nombre de classes
