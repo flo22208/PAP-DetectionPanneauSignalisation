@@ -1,5 +1,5 @@
 # Chemin vers le dataset
-path: /../PAP-DetectionPanneauSignalisation/datasets  # Dossier contenant les données
+path: PAP-DetectionPanneauSignalisation/datasets  # Dossier contenant les données
 
 # Train, validation et test
 train: coco/images/  # Dossier des images d'entraînement
