@@ -1,10 +1,10 @@
 # Chemin vers le dataset
-path: PAP-DetectionPanneauSignalisation/datasets  # Dossier contenant les données
+path: C:/Users/loicr/Desktop/AI/PAP-DetectionPanneauSignalisation/datasets  # Dossier contenant les données
 
 # Train, validation et test
-train: coco/images/train  # Dossier des images d'entraînement
-val: coco/images/train  # Dossier des images de validation
-test: images/test  # (Optionnel) Dossier des images de test
+train: C:/Users/loicr/Desktop/AI/PAP-DetectionPanneauSignalisation/datasets/coco/images/train  # Dossier des images d'entraînement
+val: C:/Users/loicr/Desktop/AI/PAP-DetectionPanneauSignalisation/datasets/coco/images/train  # Dossier des images de validation
+test: C:/Users/loicr/Desktop/AI/PAP-DetectionPanneauSignalisation/datasets/images/test  # (Optionnel) Dossier des images de test
 
 # Nombre de classes
 nc: 7
